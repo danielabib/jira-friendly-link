@@ -1,0 +1,22 @@
+{
+"manifest_version": 2,
+"name": "Copy friendly Jira link",
+"description": "Allows you to copy a Jira issue URL in a friendly format showing the issue number and Summary",
+"version": "1.0.1",
+"author": "Daniel Abib",
+"permissions": [
+"activeTab",
+"contextMenus"
+],
+"icons": {
+  "16": "jiraLink16.png",
+  "48": "jiraLink48.png",
+  "128": "jiraLink128.png"
+},
+"background": {
+"persistent": false,
+"scripts": [
+"index.js"
+]
+}
+}
